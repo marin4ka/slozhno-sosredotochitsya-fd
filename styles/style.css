@@ -11,7 +11,7 @@
   background-attachment: fixed;
 }
 
-.decorated-zone { 
+.decorated-zone {
   position: relative;
   color: var(--decor-color);
 }
@@ -87,7 +87,7 @@
   outline: none;
   line-height: 1;
   text-transform: lowercase;
-  background-color: transparent; 
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -107,8 +107,8 @@
 .header__title {
   justify-self: start;
   align-self: center;
-  color: var(--base-title-color); 
-  font-weight: 700; 
+  color: var(--base-title-color);
+  font-weight: 700;
   font-size: var(--title-font-size);
   line-height: 0.82;
   text-shadow: 4px 4px 0 var(--accent-color);
@@ -120,7 +120,7 @@
   font-weight: 700;
 }
 
-.title-decor { 
+.title-decor {
   color: var(--title-decor-color);
   background-color: var(--accent-color);
 }
