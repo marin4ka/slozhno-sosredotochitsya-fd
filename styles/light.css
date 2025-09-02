@@ -8,5 +8,32 @@
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
-  */
+  */ 
+  --base-color: #353430;
+  --base-background-color: #FFF1F7;
+  --base-background-image: url(../images/cover-image-light.png);
+  --base-title-color: #FFC2E6;
+  --outline-color: rgba(50, 49, 45, 0.40);
+  --title-decor-color: #353430;
+  --accent-color: #FF8DCB;
+  --decor-color: #353430;
+  --section-title-color: #353430;
+} 
+
+@media (prefers-color-scheme: light) { 
+  .theme-light .decorated-zone__text {
+    display: none;
+  }
+  
+  :root {
+    --base-color: #353430;
+    --base-background-color: #FFF1F7;
+    --base-background-image: url(../images/cover-image-light.png);
+    --base-title-color: #FFC2E6;
+    --outline-color: rgba(50, 49, 45, 0.40);
+    --title-decor-color: #353430;
+    --accent-color: #FF8DCB;
+    --decor-color: #353430;
+    --section-title-color: #353430;
+  }
 }
