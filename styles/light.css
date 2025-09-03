@@ -8,13 +8,13 @@
   --accent-color: #FF8DCB;
   --decor-color: #353430;
   --section-title-color: #353430;
-} 
+}
+
+.theme-light .decorated-zone__text {
+  display: none;
+}
 
 @media (prefers-color-scheme: light) {
-  .theme-light .decorated-zone__text {
-    display: none;
-  }
-  
   :root {
     --base-color: #353430;
     --base-background-color: #FFF1F7;
@@ -25,5 +25,9 @@
     --accent-color: #FF8DCB;
     --decor-color: #353430;
     --section-title-color: #353430;
+  }
+
+  .decorated-zone__text {
+    display: none;
   }
 }

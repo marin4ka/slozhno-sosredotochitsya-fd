@@ -9,3 +9,7 @@
   --decor-color: #FF0070;
   --section-title-color: #FF0070;
 }
+
+.theme-dark .decorated-zone__text {
+  display: inline-flex;
+}
